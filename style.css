@@ -17,7 +17,7 @@ a{
 header {
      display:grid;
      grid-template-columns: repeat (12, 1fr);
-     background-color:rgb(140, 19, 137);
+     background-image: radial-gradient(rgb(140, 19, 137), #6D0F6D);
      
  }
 
@@ -54,6 +54,15 @@ nav{
 
 .menu li a:hover {
     color: #e03de0
+}
+
+.btncontenedor a:hover{
+    color: #e03de0
+}
+
+.btncontenedor a{
+    background-color: #6D0F6D;
+    color: white
 }
 
 .titulocentral{
