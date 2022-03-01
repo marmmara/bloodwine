@@ -1,0 +1,130 @@
+* {
+    Margin:0;
+    padding:0;
+ }
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header {
+     display:grid;
+     grid-template-columns: repeat (12, 1fr);
+     background-color:rgb(140, 19, 137);
+     
+ }
+
+nav{
+    grid-column: 2/12;
+    display: flex;
+}
+
+
+.textobanner h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(140, 19, 137)
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.menu li{
+    align-self: flex-end;
+    padding-bottom: 2rem;
+}
+
+.menu li a {
+    color:white
+}
+
+.menu li a:hover {
+    color: #e03de0
+}
+
+.titulocentral{
+    font-size: 2rem;
+    font-weight: lighter;
+    color:rgb(140, 19, 137);
+    justify-content: center;
+    
+}
+
+.textobuscando h2{
+    font-size: 2rem;
+    font-weight: lighter;
+    color:rgb(140, 19, 137);
+}
+
+.textobuscando h2 span{
+    font-weight: bold;
+    font-size: 2rem;
+    color:rgb(140, 19, 137);
+}
+
+.imgbanner img{
+    width: 100%;
+}
+
+.fotobuscando{
+    display: grid;
+    grid-column: 8/11;
+    grid-row: 3/7;
+}
+
+.buscando{
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-rows: repeat(4,auto);
+    padding-top: 3rem;
+}
+
+.textobuscando{
+    grid-column: 2/5;
+    grid-row: 3/7;
+}
+
+
+.items{
+    padding-top: 3rem;
+
+}
+
+.tresitems{
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.iconosredes{
+    display: flex;
+    
+}
+
+
+.autor{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+footer {
+    background: rgb(140, 19, 137);
+}
